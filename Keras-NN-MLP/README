@@ -1,1 +1,6 @@
-
+README
+****************************************************************
+This folder contains data representing the 9 geometric parameters of a cellular structure and 2 outputs obtained from FEA (stiffness and specific stiffness).
+The IPYNB file trains a NN to map the geometric parameters to each output individually.
+RandomizedSearchCV is used to fine-tune the hyperparameters of the keras NN.
+****************************************************************
